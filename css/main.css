@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__right-section {
+    align-items: center;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    list-style: none;
+    width: 250px;
+}
+
+.nav__icon {
+    background: url('https://static.thenounproject.com/png/756729-200.png')
+        center/contain no-repeat;
+    height: 25px;
+    width: 25px;
+}
+
+.nav__anchor {
+    color: #000;
+    margin-right: 10px;
+}
+
+.nav__avatar {
+    border-radius: 50%;
+    height: 35px;
+    margin-left: 10px;
+    width: 35px;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.logo {
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.logo__img {
+    height: 92px;
+    width: 272px;
+}
+
+.search {
+    margin: 0 auto 35px auto;
+    width: auto;
+    max-width: 584px;
+}
+
+.search__container {
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.search__container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+.search__input {
+    border: none;
+    height: 40px;
+    outline: none;
+    width: 495px;
+}
+
+.search__icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 18px;
+    padding-right: 13px;
+    width: 18px;
+}
+
+.search__icon--look {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    opacity: 0.45;
+}
+
+.search__icon--micro {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    cursor: pointer;
+}
+
+.buttons {
+    margin: 0 auto;
+    max-width: 584px;
+}
+
+.button__container {
+    display: inline-block;
+}
+
+.button__self {
+    background-color: #f8f9fa;
+    border: 0;
+    border-radius: 5px;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
+    margin-right: 15px;
+    padding: 0 15px;
+}
+
+.button__self:hover {
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: #222;
+}
+
+.footer {
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    display: grid;
+    font-size: 13px;
+    grid-template-columns: 1fr 1fr;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+}
+
+.footer__left,
+.footer__right {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    padding-left: 0;
+}
+
+.footer__left {
+    justify-self: left;
+}
+
+.footer__right {
+    justify-self: right;
+}
+
+.footer__anchor {
+    color: #5f6368;
+    margin: 10px;
+}
